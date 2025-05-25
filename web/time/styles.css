@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #b3e5fc, #a18cd1);
+    font-family: Arial, sans-serif;
+}
+
+#timer {
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px 4px #00000033;
+}
+
+.controls {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.controls input, .controls button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+}
+
+.controls button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #ddd;
+}
